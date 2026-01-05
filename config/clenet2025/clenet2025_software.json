@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "source_paper": {
+      "title": "Addressing Ecological Challenges from a Quantum Computing Perspective",
+      "arxiv": "2504.03866",
+      "authors": ["Maxime Clenet", "Maxime Dion", "F. Guillaume Blanchet"],
+      "year": 2025
+    },
+    "creator_orcid": "0000-0002-1784-2920",
+    "creator_name": "Anne Fouilloux",
+    "is_part_of": {
+      "uri": "https://w3id.org/np/RAvk9pmoZ2IberoDe7zUWV0bVithiy6CnbSG5y06YuKM0/quantum-computing-applications-for-biodiversity-re",
+      "label": "Quantum Computing Applications for Biodiversity Research - Systematic Review"
+    }
+  },
+  "nanopublications": [
+    {
+      "id": "software_qiskit",
+      "title": "Qiskit",
+      "repository_uri": "https://github.com/Qiskit/qiskit",
+      "related_publications": [],
+      "related_resources": [
+        "https://qiskit.org/",
+        "https://arxiv.org/abs/2504.03866"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "source_paper": {
+      "title": "QOMIC: Quantum Optimization for Motif Identification in Networks",
+      "doi": "10.1093/bioadv/vbae208"
+    },
+    "creator_orcid": "0000-0002-1784-2920",
+    "creator_name": "Anne Fouilloux",
+    "is_part_of": {
+      "uri": "https://w3id.org/np/RAvk9pmoZ2IberoDe7zUWV0bVithiy6CnbSG5y06YuKM0/quantum-computing-applications-for-biodiversity-re",
+      "label": "Quantum Computing Applications for Biodiversity Research - Systematic Review"
+    }
+  },
+  "template_uri": "https://w3id.org/np/RALmXhDw3rHcMveTgbv8VtWxijUHwnSqhCmtJFIPKWVaA",
+  "nanopublications": [
+    {
+      "id": "aida_qomic_01",
+      "aida_sentence": "Quantum approximate optimization algorithms outperform classical methods for disjoint network motif identification in biological networks.",
+      "related_publication": "10.1093/bioadv/vbae208",
+      "topics": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q47536",
+          "label": "quantum computing"
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q17137535",
+          "label": "network motif"
+        }
+      ]
+    },
+    {
+      "id": "aida_qomic_02",
+      "aida_sentence": "The QOMIC algorithm achieves up to 63.6% F1 score improvement over classical methods when identifying network motifs in gene regulatory networks.",
+      "related_publication": "10.1093/bioadv/vbae208",
+      "topics": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q47536",
+          "label": "quantum computing"
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q188860",
+          "label": "gene regulatory network"
+        }
+      ]
+    },
+    {
+      "id": "aida_qomic_03",
+      "aida_sentence": "Quantum annealing provides computational advantages for NP-hard network motif identification problems in systems biology.",
+      "related_publication": "10.1093/bioadv/vbae208",
+      "topics": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q376037",
+          "label": "quantum annealing"
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q7220909",
+          "label": "systems biology"
+        }
+      ]
+    },
+    {
+      "id": "aida_qomic_04",
+      "aida_sentence": "Network motif analysis reveals conserved regulatory patterns in disease-associated gene networks through quantum optimization.",
+      "related_publication": "10.1093/bioadv/vbae208",
+      "topics": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q17137535",
+          "label": "network motif"
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q7220909",
+          "label": "systems biology"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "source_paper": {
+      "title": "Addressing Ecological Challenges from a Quantum Computing Perspective",
+      "arxiv": "2504.03866",
+      "authors": ["Maxime Clenet", "Maxime Dion", "F. Guillaume Blanchet"],
+      "year": 2025
+    },
+    "creator_orcid": "0000-0002-1784-2920",
+    "creator_name": "Anne Fouilloux",
+    "is_part_of": {
+      "uri": "https://w3id.org/np/RAvk9pmoZ2IberoDe7zUWV0bVithiy6CnbSG5y06YuKM0/quantum-computing-applications-for-biodiversity-re",
+      "label": "Quantum Computing Applications for Biodiversity Research - Systematic Review"
+    }
+  },
+  "nanopublications": [
+    {
+      "id": "aida_clenet_01",
+      "aida_sentence": "Quantum Monte Carlo methods can compute expected values quadratically faster than classical counterparts for ecological simulations.",
+      "related_publication": "https://arxiv.org/abs/2504.03866",
+      "topics": [
+        {"uri": "http://www.wikidata.org/entity/Q47536", "label": "quantum computing"},
+        {"uri": "http://www.wikidata.org/entity/Q232207", "label": "Monte Carlo method"},
+        {"uri": "http://www.wikidata.org/entity/Q7150", "label": "ecology"}
+      ]
+    },
+    {
+      "id": "aida_clenet_02",
+      "aida_sentence": "Quantum linear regression algorithms can scale logarithmically with the number of observations, offering potential exponential speedup over classical methods.",
+      "related_publication": "https://arxiv.org/abs/2504.03866",
+      "topics": [
+        {"uri": "http://www.wikidata.org/entity/Q47536", "label": "quantum computing"},
+        {"uri": "http://www.wikidata.org/entity/Q213579", "label": "linear regression"}
+      ]
+    },
+    {
+      "id": "aida_clenet_03",
+      "aida_sentence": "Quantum algorithms for Gaussian process regression can achieve exponential speedup when the covariance matrix is sparse.",
+      "related_publication": "https://arxiv.org/abs/2504.03866",
+      "topics": [
+        {"uri": "http://www.wikidata.org/entity/Q47536", "label": "quantum computing"},
+        {"uri": "http://www.wikidata.org/entity/Q1496811", "label": "Gaussian process"}
+      ]
+    },
+    {
+      "id": "aida_clenet_04",
+      "aida_sentence": "Carleman linearization enables quantum algorithms to be applied to nonlinear ecological models such as Lotka-Volterra systems.",
+      "related_publication": "https://arxiv.org/abs/2504.03866",
+      "topics": [
+        {"uri": "http://www.wikidata.org/entity/Q47536", "label": "quantum computing"},
+        {"uri": "http://www.wikidata.org/entity/Q56225", "label": "Lotka-Volterra equations"}
+      ]
+    },
+    {
+      "id": "aida_clenet_05",
+      "aida_sentence": "Quantum algorithms can accelerate community detection in ecological networks by optimizing network modularity.",
+      "related_publication": "https://arxiv.org/abs/2504.03866",
+      "topics": [
+        {"uri": "http://www.wikidata.org/entity/Q47536", "label": "quantum computing"},
+        {"uri": "http://www.wikidata.org/entity/Q1125006", "label": "community structure"},
+        {"uri": "http://www.wikidata.org/entity/Q1476530", "label": "ecological network"}
+      ]
+    },
+    {
+      "id": "aida_clenet_06",
+      "aida_sentence": "Quantum computing can provide polynomial to exponential speedups for computing graph properties essential to ecological network analysis.",
+      "related_publication": "https://arxiv.org/abs/2504.03866",
+      "topics": [
+        {"uri": "http://www.wikidata.org/entity/Q47536", "label": "quantum computing"},
+        {"uri": "http://www.wikidata.org/entity/Q141488", "label": "graph theory"},
+        {"uri": "http://www.wikidata.org/entity/Q1476530", "label": "ecological network"}
+      ]
+    }
+  ]
+}

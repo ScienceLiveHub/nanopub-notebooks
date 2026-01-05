@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "source_paper": {
+      "title": "Addressing Ecological Challenges from a Quantum Computing Perspective",
+      "arxiv": "2504.03866",
+      "authors": ["Maxime Clenet", "Maxime Dion", "F. Guillaume Blanchet"],
+      "year": 2025
+    },
+    "creator_orcid": "0000-0002-1784-2920",
+    "creator_name": "Anne Fouilloux",
+    "is_part_of": {
+      "uri": "https://w3id.org/np/RAvk9pmoZ2IberoDe7zUWV0bVithiy6CnbSG5y06YuKM0/quantum-computing-applications-for-biodiversity-re",
+      "label": "Quantum Computing Applications for Biodiversity Research - Systematic Review"
+    }
+  },
+  "nanopublications": [
+    {
+      "id": "wikidata_clenet_subject_qc",
+      "statements": [
+        {
+          "subject": {"uri": "https://arxiv.org/abs/2504.03866", "label": "Addressing Ecological Challenges from a Quantum Computing Perspective"},
+          "property": {"id": "P921", "label": "main subject"},
+          "object": {"id": "Q47536", "label": "quantum computing"}
+        }
+      ]
+    },
+    {
+      "id": "wikidata_clenet_subject_ecology",
+      "statements": [
+        {
+          "subject": {"uri": "https://arxiv.org/abs/2504.03866", "label": "Addressing Ecological Challenges from a Quantum Computing Perspective"},
+          "property": {"id": "P921", "label": "main subject"},
+          "object": {"id": "Q7150", "label": "ecology"}
+        }
+      ]
+    },
+    {
+      "id": "wikidata_clenet_subject_compeco",
+      "statements": [
+        {
+          "subject": {"uri": "https://arxiv.org/abs/2504.03866", "label": "Addressing Ecological Challenges from a Quantum Computing Perspective"},
+          "property": {"id": "P921", "label": "main subject"},
+          "object": {"id": "Q5156822", "label": "computational ecology"}
+        }
+      ]
+    },
+    {
+      "id": "wikidata_clenet_subject_networks",
+      "statements": [
+        {
+          "subject": {"uri": "https://arxiv.org/abs/2504.03866", "label": "Addressing Ecological Challenges from a Quantum Computing Perspective"},
+          "property": {"id": "P921", "label": "main subject"},
+          "object": {"id": "Q1476530", "label": "ecological network"}
+        }
+      ]
+    },
+    {
+      "id": "wikidata_qiskit_instance",
+      "statements": [
+        {
+          "subject": {"uri": "https://github.com/Qiskit/qiskit", "label": "Qiskit"},
+          "property": {"id": "P31", "label": "instance of"},
+          "object": {"id": "Q7397", "label": "software"}
+        }
+      ]
+    }
+  ]
+}

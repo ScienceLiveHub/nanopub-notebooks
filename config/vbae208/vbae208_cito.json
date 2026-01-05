@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "source_paper": {
+      "doi": "10.1093/bioadv/vbae208",
+      "title": "QOMIC: quantum optimization for motif identification",
+      "authors": [
+        "Hoang M. Ngo",
+        "Tamim Khatib",
+        "My T. Thai",
+        "Tamer Kahveci"
+      ],
+      "year": 2025,
+      "journal": "Bioinformatics Advances"
+    },
+    "created_date": "2026-01-05",
+    "creator_orcid": "0000-0002-1784-2920",
+    "creator_name": "Anne Fouilloux",
+    "is_part_of": {
+      "uri": "https://w3id.org/np/RAvk9pmoZ2IberoDe7zUWV0bVithiy6CnbSG5y06YuKM0/quantum-computing-applications-for-biodiversity-re",
+      "label": "Quantum Computing Applications for Biodiversity Research - Systematic Review"
+    }
+  },
+  "cito_types": {
+    "cito:cites": "cites",
+    "cito:citesAsDataSource": "cites as data source",
+    "cito:citesAsMetadataDocument": "cites as metadata document",
+    "cito:citesAsSourceDocument": "cites as source document",
+    "cito:usesDataFrom": "uses data from",
+    "cito:usesMethodIn": "uses method in",
+    "cito:extends": "extends",
+    "cito:obtainsBackgroundFrom": "obtains background from",
+    "cito:supports": "supports",
+    "cito:confirms": "confirms",
+    "cito:providesDataFor": "provides data for",
+    "cito:documents": "documents"
+  },
+  "nanopublications": [
+    {
+      "id": "cito_qomic_trrust",
+      "citing_article": "https://doi.org/10.1093/bioadv/vbae208",
+      "citations": [
+        {
+          "cited_article": "https://doi.org/10.1093/nar/gkx1013",
+          "citation_type": "cito:usesDataFrom",
+          "label": "TRRUST v2 database paper"
+        }
+      ],
+      "nanopub_label": "Citations for: QOMIC paper - TRRUST data source"
+    },
+    {
+      "id": "cito_qomic_qaoa",
+      "citing_article": "https://doi.org/10.1093/bioadv/vbae208",
+      "citations": [
+        {
+          "cited_article": "https://arxiv.org/abs/1411.4028",
+          "citation_type": "cito:usesMethodIn",
+          "label": "QAOA algorithm paper (Farhi et al. 2014)"
+        }
+      ],
+      "nanopub_label": "Citations for: QOMIC paper - QAOA method"
+    },
+    {
+      "id": "cito_qomic_motif",
+      "citing_article": "https://doi.org/10.1093/bioadv/vbae208",
+      "citations": [
+        {
+          "cited_article": "https://doi.org/10.1126/science.298.5594.824",
+          "citation_type": "cito:extends",
+          "label": "Network motifs foundational paper (Milo et al. 2002)"
+        }
+      ],
+      "nanopub_label": "Citations for: QOMIC paper - extends motif theory"
+    },
+    {
+      "id": "cito_qomic_qiskit",
+      "citing_article": "https://doi.org/10.1093/bioadv/vbae208",
+      "citations": [
+        {
+          "cited_article": "https://doi.org/10.5281/zenodo.2562110",
+          "citation_type": "cito:usesMethodIn",
+          "label": "Qiskit quantum computing framework"
+        }
+      ],
+      "nanopub_label": "Citations for: QOMIC paper - Qiskit implementation"
+    }
+  ],
+  "template_uri": "https://w3id.org/np/RAX_4tWTyjFpO6nz63s14ucuejd64t2mK3IBlkwZ7jjLo"
+}

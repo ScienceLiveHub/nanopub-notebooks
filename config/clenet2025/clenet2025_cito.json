@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "source_paper": {
+      "title": "Addressing Ecological Challenges from a Quantum Computing Perspective",
+      "arxiv": "2504.03866",
+      "authors": ["Maxime Clenet", "Maxime Dion", "F. Guillaume Blanchet"],
+      "year": 2025
+    },
+    "creator_orcid": "0000-0002-1784-2920",
+    "creator_name": "Anne Fouilloux",
+    "is_part_of": {
+      "uri": "https://w3id.org/np/RAvk9pmoZ2IberoDe7zUWV0bVithiy6CnbSG5y06YuKM0/quantum-computing-applications-for-biodiversity-re",
+      "label": "Quantum Computing Applications for Biodiversity Research - Systematic Review"
+    }
+  },
+  "nanopublications": [
+    {
+      "id": "cito_clenet_woolnough",
+      "citing_article": "https://arxiv.org/abs/2504.03866",
+      "citations": [
+        {
+          "cited_article": "10.1016/j.tree.2023.04.006",
+          "citation_type": "cito:extends",
+          "note": "Woolnough et al. 2023 - Quantum computing: a new paradigm for ecology (TREE)"
+        }
+      ]
+    },
+    {
+      "id": "cito_clenet_montanaro_mc",
+      "citing_article": "https://arxiv.org/abs/2504.03866",
+      "citations": [
+        {
+          "cited_article": "10.1098/rspa.2015.0301",
+          "citation_type": "cito:usesMethodIn",
+          "note": "Montanaro 2015 - Quantum speedup of Monte Carlo methods"
+        }
+      ]
+    },
+    {
+      "id": "cito_clenet_qlsa",
+      "citing_article": "https://arxiv.org/abs/2504.03866",
+      "citations": [
+        {
+          "cited_article": "10.1103/PhysRevLett.103.150502",
+          "citation_type": "cito:usesMethodIn",
+          "note": "Harrow, Hassidim, Lloyd 2009 - Quantum algorithm for solving linear systems (HHL/QLSA)"
+        }
+      ]
+    },
+    {
+      "id": "cito_clenet_grover",
+      "citing_article": "https://arxiv.org/abs/2504.03866",
+      "citations": [
+        {
+          "cited_article": "10.1103/PhysRevLett.79.325",
+          "citation_type": "cito:usesMethodIn",
+          "note": "Grover 1997 - Quantum mechanics helps in searching for a needle in a haystack"
+        }
+      ]
+    },
+    {
+      "id": "cito_clenet_qaoa",
+      "citing_article": "https://arxiv.org/abs/2504.03866",
+      "citations": [
+        {
+          "cited_article": "https://arxiv.org/abs/1411.4028",
+          "citation_type": "cito:usesMethodIn",
+          "note": "Farhi, Goldstone, Gutmann 2014 - A quantum approximate optimization algorithm (QAOA)"
+        }
+      ]
+    },
+    {
+      "id": "cito_clenet_carleman",
+      "citing_article": "https://arxiv.org/abs/2504.03866",
+      "citations": [
+        {
+          "cited_article": "10.1073/pnas.2026805118",
+          "citation_type": "cito:citesAsDataSource",
+          "note": "Liu et al. 2021 - Efficient quantum algorithm for dissipative nonlinear differential equations"
+        }
+      ]
+    }
+  ]
+}

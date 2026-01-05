@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "source_paper": {
+      "title": "QOMIC: Quantum Optimization for Motif Identification in Networks",
+      "doi": "10.1093/bioadv/vbae208"
+    },
+    "creator_orcid": "0000-0002-1784-2920",
+    "creator_name": "Anne Fouilloux",
+    "is_part_of": {
+      "uri": "https://w3id.org/np/RAvk9pmoZ2IberoDe7zUWV0bVithiy6CnbSG5y06YuKM0/quantum-computing-applications-for-biodiversity-re",
+      "label": "Quantum Computing Applications for Biodiversity Research - Systematic Review"
+    }
+  },
+  "template_uri": "https://w3id.org/np/RABBzVTxosLGT4YBCfdfNd6LyuOOTe2EVOTtWJMyOoZHk",
+  "nanopublications": [
+    {
+      "id": "software_qomic",
+      "title": "QOMIC (Quantum Optimization for Motif Identification)",
+      "repository_uri": "https://github.com/ngominhhoang/Quantum-Motif-Identification",
+      "related_publications": [
+        "10.1093/bioadv/vbae208"
+      ],
+      "related_resources": [
+        "https://doi.org/10.1093/nar/gkx1013"
+      ]
+    }
+  ]
+}

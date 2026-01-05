@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "source_paper": {
+      "doi": "10.1093/bioadv/vbae208",
+      "title": "QOMIC: quantum optimization for motif identification",
+      "authors": [
+        "Hoang M. Ngo",
+        "Tamim Khatib",
+        "My T. Thai",
+        "Tamer Kahveci"
+      ],
+      "year": 2025,
+      "journal": "Bioinformatics Advances"
+    },
+    "created_date": "2026-01-05",
+    "creator_orcid": "0000-0002-1784-2920",
+    "creator_name": "Anne Fouilloux",
+    "is_part_of": {
+      "uri": "https://w3id.org/np/RAvk9pmoZ2IberoDe7zUWV0bVithiy6CnbSG5y06YuKM0/quantum-computing-applications-for-biodiversity-re",
+      "label": "Quantum Computing Applications for Biodiversity Research - Systematic Review"
+    }
+  },
+  "nanopublications": [
+    {
+      "id": "dataset_trrust",
+      "dataset_uri": "https://www.grnpedia.org/trrust/",
+      "label": "TRRUST - Human Transcriptional Regulatory Network Database",
+      "description": "A manually curated database of human and mouse transcriptional regulatory networks. Contains 8427 human transcriptional regulatory interactions including 2428 activation, 1581 repression, and 4418 unknown interactions.",
+      "access_url": "https://www.grnpedia.org/trrust/",
+      "format": "text/html",
+      "license_uri": null,
+      "domain": "Systems Biology",
+      "language": "en",
+      "creators": [],
+      "publisher": null,
+      "version": "v2",
+      "related_publication": "https://doi.org/10.1093/nar/gkx1013",
+      "nanopub_label": "Dataset: TRRUST Human Transcriptional Regulatory Network"
+    },
+    {
+      "id": "dataset_qomic_synthetic",
+      "dataset_uri": null,
+      "label": "QOMIC Synthetic Benchmark Networks",
+      "description": "1500 synthetic networks generated for benchmarking QOMIC algorithm. Networks vary in size (200-1000 nodes), density (average degree 2-10), and activation ratio (0.2, 0.5, 0.8) across four motif topologies: cascade, FFL, bifan, and biparallel.",
+      "access_url": null,
+      "format": null,
+      "license_uri": null,
+      "domain": "Computational Biology",
+      "language": "en",
+      "creators": [
+        {
+          "orcid": "0000-0000-0000-0000",
+          "name": "Hoang M. Ngo"
+        }
+      ],
+      "publisher": null,
+      "version": null,
+      "related_publication": "https://doi.org/10.1093/bioadv/vbae208",
+      "note": "Available in Supplementary Materials of the paper",
+      "nanopub_label": "Dataset: QOMIC Synthetic Benchmark Networks"
+    }
+  ],
+  "template_uri": "https://w3id.org/np/RAuVB37yyAuAlgusrUAoG84JI4_EfrEqIkpEZYDpSz3d8"
+}

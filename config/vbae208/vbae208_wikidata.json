@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "source_paper": {
+      "doi": "10.1093/bioadv/vbae208",
+      "title": "QOMIC: quantum optimization for motif identification",
+      "authors": [
+        "Hoang M. Ngo",
+        "Tamim Khatib",
+        "My T. Thai",
+        "Tamer Kahveci"
+      ],
+      "year": 2025,
+      "journal": "Bioinformatics Advances"
+    },
+    "created_date": "2026-01-05",
+    "creator_orcid": "0000-0002-1784-2920",
+    "creator_name": "Anne Fouilloux",
+    "is_part_of": {
+      "uri": "https://w3id.org/np/RAvk9pmoZ2IberoDe7zUWV0bVithiy6CnbSG5y06YuKM0/quantum-computing-applications-for-biodiversity-re",
+      "label": "Quantum Computing Applications for Biodiversity Research - Systematic Review"
+    }
+  },
+  "common_properties": {
+    "P31": {
+      "id": "P31",
+      "label": "instance of"
+    },
+    "P279": {
+      "id": "P279",
+      "label": "subclass of"
+    },
+    "P921": {
+      "id": "P921",
+      "label": "main subject"
+    },
+    "P2283": {
+      "id": "P2283",
+      "label": "uses"
+    },
+    "P275": {
+      "id": "P275",
+      "label": "license"
+    },
+    "P178": {
+      "id": "P178",
+      "label": "developer"
+    },
+    "P306": {
+      "id": "P306",
+      "label": "operating system"
+    },
+    "P277": {
+      "id": "P277",
+      "label": "programming language"
+    },
+    "P1343": {
+      "id": "P1343",
+      "label": "described by source"
+    }
+  },
+  "common_entities": {
+    "Q7397": {
+      "id": "Q7397",
+      "label": "software"
+    },
+    "Q166142": {
+      "id": "Q166142",
+      "label": "application"
+    },
+    "Q47536": {
+      "id": "Q47536",
+      "label": "quantum computing"
+    },
+    "Q17137535": {
+      "id": "Q17137535",
+      "label": "network motif"
+    },
+    "Q28865": {
+      "id": "Q28865",
+      "label": "Python"
+    },
+    "Q110887626": {
+      "id": "Q110887626",
+      "label": "QAOA"
+    },
+    "Q47461085": {
+      "id": "Q47461085",
+      "label": "Qiskit"
+    },
+    "Q12135": {
+      "id": "Q12135",
+      "label": "Alzheimer's disease"
+    },
+    "Q574537": {
+      "id": "Q574537",
+      "label": "neurodegenerative disease"
+    }
+  },
+  "nanopublications": [
+    {
+      "id": "wikidata_qomic_instance",
+      "statements": [
+        {
+          "subject": {
+            "uri": "https://github.com/ngominhhoang/Quantum-Motif-Identification",
+            "label": "QOMIC"
+          },
+          "property": {
+            "id": "P31",
+            "label": "instance of"
+          },
+          "object": {
+            "id": "Q7397",
+            "label": "software"
+          }
+        }
+      ],
+      "nanopub_label": "QOMIC - instance of - software"
+    },
+    {
+      "id": "wikidata_qomic_uses_qaoa",
+      "statements": [
+        {
+          "subject": {
+            "uri": "https://github.com/ngominhhoang/Quantum-Motif-Identification",
+            "label": "QOMIC"
+          },
+          "property": {
+            "id": "P2283",
+            "label": "uses"
+          },
+          "object": {
+            "id": "Q110887626",
+            "label": "QAOA"
+          }
+        }
+      ],
+      "nanopub_label": "QOMIC - uses - QAOA"
+    },
+    {
+      "id": "wikidata_qomic_uses_qiskit",
+      "statements": [
+        {
+          "subject": {
+            "uri": "https://github.com/ngominhhoang/Quantum-Motif-Identification",
+            "label": "QOMIC"
+          },
+          "property": {
+            "id": "P2283",
+            "label": "uses"
+          },
+          "object": {
+            "id": "Q47461085",
+            "label": "Qiskit"
+          }
+        }
+      ],
+      "nanopub_label": "QOMIC - uses - Qiskit"
+    },
+    {
+      "id": "wikidata_paper_subject_motif",
+      "statements": [
+        {
+          "subject": {
+            "uri": "https://doi.org/10.1093/bioadv/vbae208",
+            "label": "QOMIC paper"
+          },
+          "property": {
+            "id": "P921",
+            "label": "main subject"
+          },
+          "object": {
+            "id": "Q17137535",
+            "label": "network motif"
+          }
+        }
+      ],
+      "nanopub_label": "QOMIC paper - main subject - network motif"
+    },
+    {
+      "id": "wikidata_paper_subject_quantum",
+      "statements": [
+        {
+          "subject": {
+            "uri": "https://doi.org/10.1093/bioadv/vbae208",
+            "label": "QOMIC paper"
+          },
+          "property": {
+            "id": "P921",
+            "label": "main subject"
+          },
+          "object": {
+            "id": "Q47536",
+            "label": "quantum computing"
+          }
+        }
+      ],
+      "nanopub_label": "QOMIC paper - main subject - quantum computing"
+    }
+  ],
+  "template_uri": "https://w3id.org/np/RA-46AJ9o1Nxal80CEsWhOjXwr2G3Ox5wPT6z3KxGbS7o"
+}

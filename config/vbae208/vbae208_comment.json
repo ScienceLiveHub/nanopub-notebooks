@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "source_paper": {
+      "doi": "10.1093/bioadv/vbae208",
+      "title": "QOMIC: quantum optimization for motif identification",
+      "authors": [
+        "Hoang M. Ngo",
+        "Tamim Khatib",
+        "My T. Thai",
+        "Tamer Kahveci"
+      ],
+      "year": 2025,
+      "journal": "Bioinformatics Advances"
+    },
+    "created_date": "2026-01-05",
+    "creator_orcid": "0000-0002-1784-2920",
+    "creator_name": "Anne Fouilloux",
+    "is_part_of": {
+      "uri": "https://w3id.org/np/RAvk9pmoZ2IberoDe7zUWV0bVithiy6CnbSG5y06YuKM0/quantum-computing-applications-for-biodiversity-re",
+      "label": "Quantum Computing Applications for Biodiversity Research - Systematic Review"
+    }
+  },
+  "nanopublications": [
+    {
+      "id": "comment_qomic_performance",
+      "paper_doi": "10.1093/bioadv/vbae208",
+      "quotation": "QOMIC consistently outperforms all baseline methods in identifying all four motif types (19/20 comparisons)",
+      "quotation_end": null,
+      "comment": "This demonstrates clear computational advantage of quantum approaches over classical methods for network analysis. The 19/20 success rate provides strong evidence for the PICO outcome measures regarding quantum advantage in biological network problems. Relevant for transferring methodology to ecological network analysis.",
+      "nanopub_label": "Annotation: QOMIC outperforms classical methods"
+    },
+    {
+      "id": "comment_qomic_scalability",
+      "paper_doi": "10.1093/bioadv/vbae208",
+      "quotation": "Due to the limitation on the number of qubits in current quantum machines, we employ a partitioning technique to address the large networks",
+      "quotation_end": null,
+      "comment": "Highlights current hardware constraints and practical workarounds. This addresses the PICO outcome regarding 'hardware requirements' and 'readiness for operational research'. The partitioning approach enables scaling beyond current qubit limitations, relevant for large-scale biodiversity networks.",
+      "nanopub_label": "Annotation: QOMIC scalability via partitioning"
+    },
+    {
+      "id": "comment_qomic_diseases",
+      "paper_doi": "10.1093/bioadv/vbae208",
+      "quotation": "We focus on neurodegenerative diseases, specifically Alzheimer's, Parkinson's, Huntington's, Amyotrophic Lateral Sclerosis (ALS), and Motor Neurone Disease (MND)",
+      "quotation_end": "genes related to Alzheimer's and Parkinson's exhibit strong regulatory relationships with each other by four popular motif patterns",
+      "comment": "While focused on human disease networks rather than biodiversity, the methodology for analyzing regulatory networks and identifying significant motifs is directly applicable to ecological interaction networks, species distribution models, and conservation network analysis.",
+      "nanopub_label": "Annotation: QOMIC disease network application"
+    }
+  ],
+  "template_uri": "https://w3id.org/np/RA24onqmqTMsraJ7ypYFOuckmNWpo4Zv5gsLqhXt7xYPU"
+}
