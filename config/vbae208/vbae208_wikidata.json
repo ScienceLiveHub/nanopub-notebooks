@@ -67,33 +67,21 @@
       "id": "Q166142",
       "label": "application"
     },
-    "Q47536": {
-      "id": "Q47536",
+    "Q17995793": {
+      "id": "Q17995793",
       "label": "quantum computing"
     },
-    "Q17137535": {
-      "id": "Q17137535",
+    "Q7001080": {
+      "id": "Q7001080",
       "label": "network motif"
     },
     "Q28865": {
       "id": "Q28865",
       "label": "Python"
     },
-    "Q110887626": {
-      "id": "Q110887626",
-      "label": "QAOA"
-    },
-    "Q47461085": {
-      "id": "Q47461085",
+    "Q70490607": {
+      "id": "Q70490607",
       "label": "Qiskit"
-    },
-    "Q12135": {
-      "id": "Q12135",
-      "label": "Alzheimer's disease"
-    },
-    "Q574537": {
-      "id": "Q574537",
-      "label": "neurodegenerative disease"
     }
   },
   "nanopublications": [
@@ -118,26 +106,6 @@
       "nanopub_label": "QOMIC - instance of - software"
     },
     {
-      "id": "wikidata_qomic_uses_qaoa",
-      "statements": [
-        {
-          "subject": {
-            "uri": "https://github.com/ngominhhoang/Quantum-Motif-Identification",
-            "label": "QOMIC"
-          },
-          "property": {
-            "id": "P2283",
-            "label": "uses"
-          },
-          "object": {
-            "id": "Q110887626",
-            "label": "QAOA"
-          }
-        }
-      ],
-      "nanopub_label": "QOMIC - uses - QAOA"
-    },
-    {
       "id": "wikidata_qomic_uses_qiskit",
       "statements": [
         {
@@ -150,7 +118,7 @@
             "label": "uses"
           },
           "object": {
-            "id": "Q47461085",
+            "id": "Q70490607",
             "label": "Qiskit"
           }
         }
@@ -170,7 +138,7 @@
             "label": "main subject"
           },
           "object": {
-            "id": "Q17137535",
+            "id": "Q7001080",
             "label": "network motif"
           }
         }
@@ -190,7 +158,7 @@
             "label": "main subject"
           },
           "object": {
-            "id": "Q47536",
+            "id": "Q17995793",
             "label": "quantum computing"
           }
         }

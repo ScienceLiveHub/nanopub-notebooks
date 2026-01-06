@@ -1,6 +1,7 @@
 {
   "metadata": {
     "source_paper": {
+      "doi": "10.48550/arXiv.2504.03866",
       "title": "Addressing Ecological Challenges from a Quantum Computing Perspective",
       "arxiv": "2504.03866",
       "authors": ["Maxime Clenet", "Maxime Dion", "F. Guillaume Blanchet"],
@@ -19,7 +20,7 @@
       "aida_sentence": "Quantum Monte Carlo methods can compute expected values quadratically faster than classical counterparts for ecological simulations.",
       "related_publication": "https://arxiv.org/abs/2504.03866",
       "topics": [
-        {"uri": "http://www.wikidata.org/entity/Q47536", "label": "quantum computing"},
+        {"uri": "http://www.wikidata.org/entity/Q17995793", "label": "quantum computing"},
         {"uri": "http://www.wikidata.org/entity/Q232207", "label": "Monte Carlo method"},
         {"uri": "http://www.wikidata.org/entity/Q7150", "label": "ecology"}
       ]
@@ -29,8 +30,8 @@
       "aida_sentence": "Quantum linear regression algorithms can scale logarithmically with the number of observations, offering potential exponential speedup over classical methods.",
       "related_publication": "https://arxiv.org/abs/2504.03866",
       "topics": [
-        {"uri": "http://www.wikidata.org/entity/Q47536", "label": "quantum computing"},
-        {"uri": "http://www.wikidata.org/entity/Q213579", "label": "linear regression"}
+        {"uri": "http://www.wikidata.org/entity/Q17995793", "label": "quantum computing"},
+        {"uri": "http://www.wikidata.org/entity/Q10861030", "label": "linear regression"}
       ]
     },
     {
@@ -38,8 +39,8 @@
       "aida_sentence": "Quantum algorithms for Gaussian process regression can achieve exponential speedup when the covariance matrix is sparse.",
       "related_publication": "https://arxiv.org/abs/2504.03866",
       "topics": [
-        {"uri": "http://www.wikidata.org/entity/Q47536", "label": "quantum computing"},
-        {"uri": "http://www.wikidata.org/entity/Q1496811", "label": "Gaussian process"}
+        {"uri": "http://www.wikidata.org/entity/Q17995793", "label": "quantum computing"},
+        {"uri": "http://www.wikidata.org/entity/Q1496376", "label": "Gaussian process"}
       ]
     },
     {
@@ -47,8 +48,8 @@
       "aida_sentence": "Carleman linearization enables quantum algorithms to be applied to nonlinear ecological models such as Lotka-Volterra systems.",
       "related_publication": "https://arxiv.org/abs/2504.03866",
       "topics": [
-        {"uri": "http://www.wikidata.org/entity/Q47536", "label": "quantum computing"},
-        {"uri": "http://www.wikidata.org/entity/Q56225", "label": "Lotka-Volterra equations"}
+        {"uri": "http://www.wikidata.org/entity/Q17995793", "label": "quantum computing"},
+        {"uri": "http://www.wikidata.org/entity/Q150052", "label": "Lotka-Volterra equations"}
       ]
     },
     {
@@ -56,9 +57,9 @@
       "aida_sentence": "Quantum algorithms can accelerate community detection in ecological networks by optimizing network modularity.",
       "related_publication": "https://arxiv.org/abs/2504.03866",
       "topics": [
-        {"uri": "http://www.wikidata.org/entity/Q47536", "label": "quantum computing"},
-        {"uri": "http://www.wikidata.org/entity/Q1125006", "label": "community structure"},
-        {"uri": "http://www.wikidata.org/entity/Q1476530", "label": "ecological network"}
+        {"uri": "http://www.wikidata.org/entity/Q17995793", "label": "quantum computing"},
+        {"uri": "http://www.wikidata.org/entity/Q5155065", "label": "community structure"},
+        {"uri": "http://www.wikidata.org/entity/Q5333246", "label": "ecological network"}
       ]
     },
     {
@@ -66,9 +67,9 @@
       "aida_sentence": "Quantum computing can provide polynomial to exponential speedups for computing graph properties essential to ecological network analysis.",
       "related_publication": "https://arxiv.org/abs/2504.03866",
       "topics": [
-        {"uri": "http://www.wikidata.org/entity/Q47536", "label": "quantum computing"},
+        {"uri": "http://www.wikidata.org/entity/Q17995793", "label": "quantum computing"},
         {"uri": "http://www.wikidata.org/entity/Q141488", "label": "graph theory"},
-        {"uri": "http://www.wikidata.org/entity/Q1476530", "label": "ecological network"}
+        {"uri": "http://www.wikidata.org/entity/Q5333246", "label": "ecological network"}
       ]
     }
   ]

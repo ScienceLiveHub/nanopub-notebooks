@@ -73,7 +73,21 @@ All nanopublications are generated from JSON configuration files. **Nothing is h
 
 ### Linking to Your Systematic Review
 
-The `is_part_of` field links all generated nanopublications to your systematic review. This creates a `dct:isPartOf` relationship in the pubinfo graph.
+The `is_part_of` field links generated nanopublications to your systematic review. The location of this link depends on the nanopublication type:
+
+**Entity-level linking (in assertion graph):**
+- **AIDA**: Links the AIDA sentence entity to the review
+- **Software**: Links the software entity to the review
+- **Dataset**: Links the dataset entity to the review
+- **Comment**: Links the annotated paper to the review
+
+**Nanopub-level linking (in pubinfo graph):**
+- **CiTO**: Links the nanopublication itself to the review
+- **Wikidata**: Links the nanopublication itself to the review
+
+This distinction matters for SPARQL queries:
+- Assertion-level: "Find all AIDA sentences that are part of review X"
+- Pubinfo-level: "Find all nanopubs that are part of review X"
 
 **Example for different reviews:**
 

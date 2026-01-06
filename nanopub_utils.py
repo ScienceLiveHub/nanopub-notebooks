@@ -226,6 +226,11 @@ class NanopubGenerator:
         self.introduces_uri = None
         # For tracking nanopub types
         self.nanopub_types = []
+        # For entity-level isPartOf in assertion (set by subclass if applicable)
+        self.assertion_is_part_of_entity = None
+        # Flag: if True, isPartOf goes in assertion (not pubinfo)
+        # Subclasses should set this to True if they handle isPartOf in assertion
+        self.is_part_of_in_assertion = False
     
     def add_prefix(self, prefix: str):
         """Add a prefix to the used prefixes set."""
@@ -244,6 +249,17 @@ class NanopubGenerator:
         """Add a nanopub type."""
         if type_uri not in self.nanopub_types:
             self.nanopub_types.append(type_uri)
+    
+    def set_assertion_is_part_of(self, entity_uri: str):
+        """Set the entity that should have isPartOf in the assertion."""
+        self.assertion_is_part_of_entity = entity_uri
+    
+    def get_assertion_is_part_of_triple(self) -> str:
+        """Get the isPartOf triple for the assertion, if applicable."""
+        is_part_of = self.config.get("is_part_of")
+        if self.assertion_is_part_of_entity and is_part_of and is_part_of.get("uri"):
+            return f'  <{self.assertion_is_part_of_entity}> <http://purl.org/dc/terms/isPartOf> <{is_part_of["uri"]}> .'
+        return ""
     
     def get_prefixes_block(self) -> str:
         """Get the prefixes block for the nanopublication."""
@@ -275,6 +291,9 @@ class NanopubGenerator:
         # Get label AFTER assertion (subclasses may set it in generate_assertion)
         label = self.config.get("label", "Nanopublication")
         
+        # Only include is_part_of in pubinfo if NOT handled in assertion
+        pubinfo_is_part_of = None if self.is_part_of_in_assertion else is_part_of
+        
         # Generate all other parts
         prefixes = self.get_prefixes_block()
         head = generate_head_graph(self.sub_prefix)
@@ -292,7 +311,7 @@ class NanopubGenerator:
             introduces_uri=self.introduces_uri,
             wikidata_labels=self.wikidata_labels if self.wikidata_labels else None,
             supersedes=supersedes,
-            is_part_of=is_part_of
+            is_part_of=pubinfo_is_part_of
         )
         
         return f"{prefixes}\n\n{head}\n\n{assertion}\n\n{provenance}\n\n{pubinfo}\n"

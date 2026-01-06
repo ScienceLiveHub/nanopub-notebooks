@@ -19,11 +19,11 @@
       "related_publication": "10.1093/bioadv/vbae208",
       "topics": [
         {
-          "uri": "http://www.wikidata.org/entity/Q47536",
+          "uri": "http://www.wikidata.org/entity/Q17995793",
           "label": "quantum computing"
         },
         {
-          "uri": "http://www.wikidata.org/entity/Q17137535",
+          "uri": "http://www.wikidata.org/entity/Q7001080",
           "label": "network motif"
         }
       ]
@@ -34,11 +34,11 @@
       "related_publication": "10.1093/bioadv/vbae208",
       "topics": [
         {
-          "uri": "http://www.wikidata.org/entity/Q47536",
+          "uri": "http://www.wikidata.org/entity/Q17995793",
           "label": "quantum computing"
         },
         {
-          "uri": "http://www.wikidata.org/entity/Q188860",
+          "uri": "http://www.wikidata.org/entity/Q1502576",
           "label": "gene regulatory network"
         }
       ]
@@ -49,11 +49,11 @@
       "related_publication": "10.1093/bioadv/vbae208",
       "topics": [
         {
-          "uri": "http://www.wikidata.org/entity/Q376037",
+          "uri": "http://www.wikidata.org/entity/Q938141",
           "label": "quantum annealing"
         },
         {
-          "uri": "http://www.wikidata.org/entity/Q7220909",
+          "uri": "http://www.wikidata.org/entity/Q815297",
           "label": "systems biology"
         }
       ]
@@ -64,11 +64,11 @@
       "related_publication": "10.1093/bioadv/vbae208",
       "topics": [
         {
-          "uri": "http://www.wikidata.org/entity/Q17137535",
+          "uri": "http://www.wikidata.org/entity/Q7001080",
           "label": "network motif"
         },
         {
-          "uri": "http://www.wikidata.org/entity/Q7220909",
+          "uri": "http://www.wikidata.org/entity/Q815297",
           "label": "systems biology"
         }
       ]

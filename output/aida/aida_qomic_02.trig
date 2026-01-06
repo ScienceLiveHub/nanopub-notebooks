@@ -1,0 +1,51 @@
+@prefix this: <https://w3id.org/np/RA0af9fc66fc614bc4d600b92d473fe59e5666abcdc09> .
+@prefix sub: <https://w3id.org/np/RA0af9fc66fc614bc4d600b92d473fe59e5666abcdc09/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+  this: a np:Nanopublication ;
+    np:hasAssertion sub:assertion ;
+    np:hasProvenance sub:provenance ;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  <http://purl.org/aida/The%20QOMIC%20algorithm%20achieves%20up%20to%2063.6%25%20F1%20score%20improvement%20over%20classical%20methods%20when%20identifying%20network%20motifs%20in%20gene%20regulatory%20networks.>
+    a <http://purl.org/petapico/o/hycl#AIDA-Sentence>;
+    <http://purl.org/spar/cito/obtainsSupportFrom> <https://doi.org/10.1093/bioadv/vbae208>;
+    <http://schema.org/about> <http://www.wikidata.org/entity/Q17995793>;
+    <http://schema.org/about> <http://www.wikidata.org/entity/Q1502576>;
+    <http://purl.org/dc/terms/isPartOf> <https://w3id.org/np/RAvk9pmoZ2IberoDe7zUWV0bVithiy6CnbSG5y06YuKM0/quantum-computing-applications-for-biodiversity-re> .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-1784-2920 .
+}
+
+sub:pubinfo {
+  <http://www.wikidata.org/entity/Q17995793> nt:hasLabelFromApi "quantum computing" .
+  <http://www.wikidata.org/entity/Q1502576> nt:hasLabelFromApi "gene regulatory network" .
+
+  orcid:0000-0002-1784-2920 foaf:name "Anne Fouilloux" .
+
+  this: dct:created "2026-01-06T22:01:56.219Z"^^xsd:dateTime ;
+    dct:creator orcid:0000-0002-1784-2920 ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    npx:hasNanopubType <http://purl.org/petapico/o/hycl#AIDA-Sentence>, <http://purl.org/petapico/o/hycl> ;
+    npx:introduces <http://purl.org/aida/The%20QOMIC%20algorithm%20achieves%20up%20to%2063.6%25%20F1%20score%20improvement%20over%20classical%20methods%20when%20identifying%20network%20motifs%20in%20gene%20regulatory%20networks.> ;
+    npx:wasCreatedAt <https://nanodash.knowledgepixels.com/> ;
+    rdfs:label "AIDA sentence: The QOMIC algorithm achieves up to 63.6% F1 score improvement over classical methods when identifyin..." ;
+    nt:wasCreatedFromProvenanceTemplate <https://w3id.org/np/RA7lSq6MuK_TIC6JMSHvLtee3lpLoZDOqLJCLXevnrPoU> ;
+    nt:wasCreatedFromPubinfoTemplate <https://w3id.org/np/RA0J4vUn_dekg-U1kK3AOEt02p9mT2WO03uGxLDec1jLw>,
+      <https://w3id.org/np/RAukAcWHRDlkqxk7H2XNSegc1WnHI569INvNr-xdptDGI> ;
+    nt:wasCreatedFromTemplate <https://w3id.org/np/RALmXhDw3rHcMveTgbv8VtWxijUHwnSqhCmtJFIPKWVaA> .
+}

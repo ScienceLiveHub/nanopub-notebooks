@@ -1,0 +1,47 @@
+@prefix this: <https://w3id.org/np/RAd4b21383f4b9eba07ea3f926633f40de83487b8010e> .
+@prefix sub: <https://w3id.org/np/RAd4b21383f4b9eba07ea3f926633f40de83487b8010e/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+  this: a np:Nanopublication ;
+    np:hasAssertion sub:assertion ;
+    np:hasProvenance sub:provenance ;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  <https://arxiv.org/abs/2504.03866> wdt:P921 wd:Q114110264 .
+  <https://arxiv.org/abs/2504.03866> rdfs:label "Addressing Ecological Challenges from a Quantum Computing Perspective" .
+  wd:Q114110264 rdfs:label "ecological modeling" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-1784-2920 .
+}
+
+sub:pubinfo {
+  <https://w3id.org/np/RAvk9pmoZ2IberoDe7zUWV0bVithiy6CnbSG5y06YuKM0/quantum-computing-applications-for-biodiversity-re> nt:hasLabelFromApi "Quantum Computing Applications for Biodiversity Research - Systematic Review" .
+
+  orcid:0000-0002-1784-2920 foaf:name "Anne Fouilloux" .
+
+  this: dct:created "2026-01-06T21:06:01.754Z"^^xsd:dateTime ;
+    dct:creator orcid:0000-0002-1784-2920 ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    <http://purl.org/dc/terms/isPartOf> <https://w3id.org/np/RAvk9pmoZ2IberoDe7zUWV0bVithiy6CnbSG5y06YuKM0/quantum-computing-applications-for-biodiversity-re> ;
+    npx:wasCreatedAt <https://nanodash.knowledgepixels.com/> ;
+    rdfs:label "Wikidata Statement" ;
+    nt:wasCreatedFromProvenanceTemplate <https://w3id.org/np/RA7lSq6MuK_TIC6JMSHvLtee3lpLoZDOqLJCLXevnrPoU> ;
+    nt:wasCreatedFromPubinfoTemplate <https://w3id.org/np/RA0J4vUn_dekg-U1kK3AOEt02p9mT2WO03uGxLDec1jLw>,
+      <https://w3id.org/np/RAukAcWHRDlkqxk7H2XNSegc1WnHI569INvNr-xdptDGI> .
+}

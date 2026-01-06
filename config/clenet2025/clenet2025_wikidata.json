@@ -1,6 +1,7 @@
 {
   "metadata": {
     "source_paper": {
+      "doi": "10.48550/arXiv.2504.03866",
       "title": "Addressing Ecological Challenges from a Quantum Computing Perspective",
       "arxiv": "2504.03866",
       "authors": ["Maxime Clenet", "Maxime Dion", "F. Guillaume Blanchet"],
@@ -20,7 +21,7 @@
         {
           "subject": {"uri": "https://arxiv.org/abs/2504.03866", "label": "Addressing Ecological Challenges from a Quantum Computing Perspective"},
           "property": {"id": "P921", "label": "main subject"},
-          "object": {"id": "Q47536", "label": "quantum computing"}
+          "object": {"id": "Q17995793", "label": "quantum computing"}
         }
       ]
     },
@@ -35,12 +36,12 @@
       ]
     },
     {
-      "id": "wikidata_clenet_subject_compeco",
+      "id": "wikidata_clenet_subject_ecomodel",
       "statements": [
         {
           "subject": {"uri": "https://arxiv.org/abs/2504.03866", "label": "Addressing Ecological Challenges from a Quantum Computing Perspective"},
           "property": {"id": "P921", "label": "main subject"},
-          "object": {"id": "Q5156822", "label": "computational ecology"}
+          "object": {"id": "Q114110264", "label": "ecological modeling"}
         }
       ]
     },
@@ -50,7 +51,7 @@
         {
           "subject": {"uri": "https://arxiv.org/abs/2504.03866", "label": "Addressing Ecological Challenges from a Quantum Computing Perspective"},
           "property": {"id": "P921", "label": "main subject"},
-          "object": {"id": "Q1476530", "label": "ecological network"}
+          "object": {"id": "Q5333246", "label": "ecological network"}
         }
       ]
     },
